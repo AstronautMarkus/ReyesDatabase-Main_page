@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="src/600.png" />
+    <title>Reyes&Friends server modpack</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="src/600.png" width="50px" alt="head_logo">
+            <div class="logo">
+                <h1>Reyes&Friends</h1>
+            </div>
+
+            <nav>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#screenshots">Capturas</a></li>
+                    <li><a href="#download">Descargar</a></li>
+                    <li><a href="#status">Estado del servidor</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="home">
+        <div class="post">
+            <div>
+                <img class="img-screenshot" src="src/server_title.png" alt="">
+
+                <img class="img-screenshot" src="src/header_1.gif" width="70%" alt="">
+
+                <p id="about">Bienvenidos a "Reyes&Friends Server", un servidor <strong> No premium</strong> de Minecraft
+                    modificado para la versión 1.12.2,
+                    creado por "AstronautMarkus" en nombre de "Reyes&Friends". Este servidor está diseñado con fines
+                    experimentales y tendrá una duración limitada.</p>
+
+                <h1>Modalidad de Juego:</h1>
+
+                <p>El servidor opera en modo Survival, donde no existen rangos administrativos para ningún usuario,
+                    incluyendo al creador. La única forma de sobrevivir en este mundo es colaborando mutuamente o por tu
+                    propia cuenta.</p>
+
+                <h1>Lista de mods:</h1>
+
+                <ol>
+                    <li>Biomes O' Plenty: Agrega una gran cantidad de nuevos biomas, haciendo el mundo más variado y emocionante de explorar.</li>
+                    <li>Mutant Beasts: Introduce versiones mutantes de mobs clásicos, proporcionando un nuevo nivel de desafío.</li>
+                    <li>Tropicraft: Añade una dimensión tropical con nuevas criaturas, plantas y estructuras, ofreciendo una experiencia vacacional dentro del juego.</li>
+                    <li>Spartan Shields: Implementa una variedad de nuevos escudos con diferentes características y usos.</li>
+                    <li>Waystones: Facilita el viaje rápido entre diferentes lugares del mapa mediante piedras de teletransporte.</li>
+                    <li>Infernal Mobs: Aumenta la dificultad al otorgar habilidades especiales a mobs regulares, haciendo cada encuentro único y peligroso.</li>
+                    <li>Herobrine Mod: Incluye al mítico Herobrine en el juego, añadiendo misterio y terror al servidor.</li>
+                    <li>MCA (Minecraft Comes Alive): Transforma a los aldeanos en personajes interactivos con los que puedes formar relaciones y construir una comunidad.</li>
+                    <li>Gravestone Mod: Cuando mueres, una lápida marca el lugar y guarda tus objetos, haciendo más fácil recuperarlos.</li>
+                    <li>Epic Fight: Cambia completamente la mecánica de combate, haciendo las batallas más dinámicas y emocionantes.</li>
+                    <li>Paraglider: Permite el uso de parapentes, añadiendo una nueva forma de explorar el mundo desde el aire.</li>
+                    <li>ChocoCraft: Añade Chocobos, criaturas amigables que puedes domesticar, criar y montar.</li>
+                    <li>Zoocraft Discoveries: Introduce una gran variedad de animales exóticos que puedes encontrar y coleccionar.</li>
+                    <li>Backpacks: Agrega mochilas para ampliar tu capacidad de almacenamiento y organizar mejor tus aventuras.</li>
+                    <li>Waddles: Introduce pingüinos, añadiendo vida a los biomas fríos.</li>
+                    <li>Techguns: Agrega una amplia gama de armas de alta tecnología y equipo militar, transformando el combate con nuevos niveles de poder y estrategia. También incluye nuevas estructuras, mobs y sistemas de energía, enriqueciendo aún más la experiencia del juego.</li>
+                </ol>
+
+                <h1>Nota importante</h1>
+
+                <p>Este proyecto es temporal, todo dependerá del comportamiento de los jugadores entre todos, si el resultado es positivo es muy posible que la duración del servidor aumente. Recuerda comportarte y respetar a los demás.</p>
+            </div>
+
+
+            <div class="gallery-container" id="screenshots">
+                    <h1>Capturas</h1>
+                    <div class="main-photo">
+                        <img id="main-image" src="src/screens/2024-06-21_03.15.25.png" alt="Main Photo">
+                    </div>
+                    <div class="thumbnails">
+                        <img src="src/screens/2024-06-16_02.23.52.png" alt="Thumbnail 1" onclick="changeImage(this)">
+                        <img src="src/screens/2024-06-20_17.06.27.png" alt="Thumbnail 2" onclick="changeImage(this)">
+                        <img src="src/screens/2024-06-21_01.00.46.png" alt="Thumbnail 3" onclick="changeImage(this)">
+                        <img src="src/screens/2024-06-21_01.43.42.png" alt="Thumbnail 4" onclick="changeImage(this)">
+                    	<img src="src/screens/2024-06-21_02.07.08.png" alt="Thumbnail 5" onclick="changeImage(this)">
+                    	<img src="src/screens/2024-06-21_03.15.25.png" alt="Thumbnail 6" onclick="changeImage(this)">
+                    </div>
+            </div>
+                
+
+
+            <div>
+                <h1 id="download">Descargar Modpack</h1>
+
+                <strong>Para poder usar el modpack debes tener Forge 1.12.2 instalado, si no lo tienes puedes descargarlo desde aquí:
+    
+
+                    <div>
+                        <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html" class="download-button">Descargar Forge</a>
+                    </div>
+
+                <p>Luego de eso, descarga el archivo .zip con todos los mods incluidos para jugar en nuestro servidor.
+                    Dentro del
+                    archivo, encontrarás instrucciones detalladas sobre cómo instalar y configurar los mods.
+
+                <h3>Antes que todo:</h3>
+                Ninguna de las modificaciones incluidas en el modpack me pertenece. Todos los créditos van para sus
+                respectivos autores.</p>
+                <a href="releases/reyesandfriends-ModPack Ver2.3.1.zip" class="download-button">Descargar Modpack</a>
+
+                <p>Diviértete lo más que se pueda.<img
+                            src="https://cdn3.emoji.gg/emojis/6827-monikathumbsup.png" width="50px" height="50px"
+                            alt="MonikaThumbsUp"></p>
+            </div>
+
+            <div>
+                <h1 id="status">Información del Servidor</h1>
+
+                <h1 id="server-status"></h1>
+
+                <h3>IP del servidor: <strong>reyesdatabase.ddns.net</strong></h3>
+                <h3>Jugadores online: <strong id="jugadores"></strong></h3>
+                <h3>Cantidad de Mods activos: <strong id="mods"></strong></h3>
+
+            </div>
+
+            <h1 id="contact">Acerca de mí: pronto :3</h1>
+
+
+            
+
+
+            <p>Por ahora eso, recuerda que la duración de este proyecto solo dependerá de tí, hasta pronto!</p>
+
+            <img src="src/601.png" width="50px" alt="head_logo">
+
+        </div>
+
+
+    </div>
+    <footer>
+        <p>&copy; 2024 ReyesAndFriends hecho por Marcos Reyes. Todos los derechos reservados. </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
